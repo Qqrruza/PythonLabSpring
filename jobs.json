@@ -1,0 +1,70 @@
+{
+    "date": "сегодня",
+    "search": "1С",
+    "results_count": 49133,
+    "jobs": [
+        {
+            "position": "Менеджер проектного офиса",
+            "company_name": "РОСКОСМОС",
+            "location": "Санкт-Петербург",
+            "payment": "172780 - 172780 RUR",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131329650"
+        },
+        {
+            "position": "Заместитель начальника цеха по технике",
+            "company_name": "РОСКОСМОС",
+            "location": "Санкт-Петербург",
+            "payment": "158263 - 158263 RUR",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131326780"
+        },
+        {
+            "position": "Шеф-повар",
+            "company_name": "ЕСК",
+            "location": "Санкт-Петербург",
+            "payment": "250000 - 250000 RUR",
+            "experience_level": "Более 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131344059"
+        },
+        {
+            "position": "Организатор мероприятий",
+            "company_name": "GASTROLI",
+            "location": "Санкт-Петербург",
+            "payment": "60000 - 130000 RUR",
+            "experience_level": "От 1 года до 3 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131352369"
+        },
+        {
+            "position": "Водитель",
+            "company_name": "НИИРПИ",
+            "location": "Санкт-Петербург",
+            "payment": "не указана",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131351670"
+        },
+        {
+            "position": "Оператор ПК/Оператор базы данных",
+            "company_name": "ТК Гермес",
+            "location": "Санкт-Петербург",
+            "payment": "70000 - 85000 RUR",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131351680"
+        },
+        {
+            "position": "Менеджер проектов",
+            "company_name": "Авито",
+            "location": "Санкт-Петербург",
+            "payment": "не указана",
+            "experience_level": "От 1 года до 3 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131352414"
+        }
+    ]
+}
