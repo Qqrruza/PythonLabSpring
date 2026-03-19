@@ -1,70 +1,70 @@
 {
     "date": "сегодня",
     "search": "1С",
-    "results_count": 49133,
+    "results_count": 48998,
     "jobs": [
         {
-            "position": "Менеджер проектного офиса",
-            "company_name": "РОСКОСМОС",
+            "position": "Специалист по работе с органами государственной власти",
+            "company_name": "Лесное",
             "location": "Санкт-Петербург",
-            "payment": "172780 - 172780 RUR",
-            "experience_level": "От 3 до 6 лет",
-            "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131329650"
-        },
-        {
-            "position": "Заместитель начальника цеха по технике",
-            "company_name": "РОСКОСМОС",
-            "location": "Санкт-Петербург",
-            "payment": "158263 - 158263 RUR",
-            "experience_level": "От 3 до 6 лет",
-            "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131326780"
-        },
-        {
-            "position": "Шеф-повар",
-            "company_name": "ЕСК",
-            "location": "Санкт-Петербург",
-            "payment": "250000 - 250000 RUR",
-            "experience_level": "Более 6 лет",
-            "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131344059"
-        },
-        {
-            "position": "Организатор мероприятий",
-            "company_name": "GASTROLI",
-            "location": "Санкт-Петербург",
-            "payment": "60000 - 130000 RUR",
+            "payment": "200000 - 200000 RUR",
             "experience_level": "От 1 года до 3 лет",
             "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131352369"
+            "job_link": "https://hh.ru/vacancy/131370055"
+        },
+        {
+            "position": "Бухгалтер",
+            "company_name": "РОСТ, Группа компаний",
+            "location": "Санкт-Петербург",
+            "payment": "138000 - 138000 RUR",
+            "experience_level": "От 1 года до 3 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131374060"
         },
         {
             "position": "Водитель",
-            "company_name": "НИИРПИ",
+            "company_name": "Формула",
             "location": "Санкт-Петербург",
-            "payment": "не указана",
-            "experience_level": "От 3 до 6 лет",
-            "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131351670"
-        },
-        {
-            "position": "Оператор ПК/Оператор базы данных",
-            "company_name": "ТК Гермес",
-            "location": "Санкт-Петербург",
-            "payment": "70000 - 85000 RUR",
-            "experience_level": "От 3 до 6 лет",
-            "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131351680"
-        },
-        {
-            "position": "Менеджер проектов",
-            "company_name": "Авито",
-            "location": "Санкт-Петербург",
-            "payment": "не указана",
+            "payment": "от 100000 RUR",
             "experience_level": "От 1 года до 3 лет",
             "work_type": "Полная занятость",
-            "job_link": "https://hh.ru/vacancy/131352414"
+            "job_link": "https://hh.ru/vacancy/131375615"
+        },
+        {
+            "position": "Директор дивизиона",
+            "company_name": "ВПТ",
+            "location": "Санкт-Петербург",
+            "payment": "от 200000 RUR",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131358721"
+        },
+        {
+            "position": "Бухгалтер (удаленно)",
+            "company_name": "ТРЕНД НОВОСТРОЙКИ",
+            "location": "Санкт-Петербург",
+            "payment": "от 80000 RUR",
+            "experience_level": "От 1 года до 3 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131351234"
+        },
+        {
+            "position": "Бухгалтер на первичную документацию\\Оператор 1С",
+            "company_name": "Рязанова Ольга Михайловна",
+            "location": "Санкт-Петербург",
+            "payment": "79000 - 90000 RUR",
+            "experience_level": "От 1 года до 3 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131369311"
+        },
+        {
+            "position": "Инженер по тестированию/QA",
+            "company_name": "Ред Софт",
+            "location": "Санкт-Петербург",
+            "payment": "не указана",
+            "experience_level": "От 3 до 6 лет",
+            "work_type": "Полная занятость",
+            "job_link": "https://hh.ru/vacancy/131383149"
         }
     ]
 }

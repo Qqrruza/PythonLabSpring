@@ -2,7 +2,6 @@ import tkinter as tk
 import requests
 from PIL import Image, ImageTk
 from io import BytesIO
-import time
 
 def show_cat():
     try:
@@ -27,7 +26,7 @@ def next_cat():
     show_cat()
 
 root = tk.Tk()
-root.title("кот")
+root.title("коты")
 root.geometry("500x550")
 
 btn = tk.Button(root, text="новый кот", command=next_cat)
