@@ -7,7 +7,10 @@ h, w = template.shape[:2]
 fly = cv2.imread('fly64.png', cv2.IMREAD_UNCHANGED)
 fly_h, fly_w = fly.shape[:2]
 fly_rgb = fly[:,:,:3]
-fly_mask = fly[:,:,3] / 255.0 if fly.shape[2] == 4 else np.ones((fly_h, fly_w))
+if fly.shape[2] == 4:
+    fly_mask = fly[:,:,3] / 255.0
+else:
+    fly_mask = np.ones((fly_h, fly_w))
 
 cam = cv2.VideoCapture(0)
 
@@ -24,15 +27,12 @@ while True:
         x, y = max_loc
         center_x, center_y = x + w//2, y + h//2
         
-        # Отрисовка метки
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0,255,0), 2)
         cv2.circle(frame, (center_x, center_y), 5, (0,0,255), -1)
         
-        # Вывод координат (левый верхний угол)
         cv2.putText(frame, f"Center: ({center_x}, {center_y})", (10,30), 
                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,255,0), 2)
         
-        # Наложение мухи
         fly_x, fly_y = center_x - fly_w//2, center_y - fly_h//2
         roi = frame[fly_y:fly_y+fly_h, fly_x:fly_x+fly_w]
         for c in range(3):
