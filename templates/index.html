@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заметки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button.clear-btn {
+            background-color: #f44336;
+            margin-left: 10px;
+        }
+        .notes-list {
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+        }
+        .notes-list li {
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .note-text {
+            flex-grow: 1;
+        }
+        .important-note {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Мои заметки</h1>
+    </div>
+    <div class="container">
+        <form id="note-form">
+            <div class="form-group">
+                <label for="note-text">Текст заметки</label>
+                <input type="text" id="note-text" name="text" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="note-important"> Важная заметка
+                </label>
+            </div>
+            <button type="submit">Добавить</button>
+            <button type="button" class="clear-btn" id="clear-btn">Clear</button>
+        </form>
+
+        <h2>Лента заметок</h2>
+        <ul id="notes-list" class="notes-list">
+        </ul>
+    </div>
+    <script src="{{ url_for('static', filename='notes.js') }}"></script>
+</body>
+</html>
