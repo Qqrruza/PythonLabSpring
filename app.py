@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(os.path.abspath(os.path.dirname(__file__)), 'instance', 'notes.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///notes.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -31,6 +31,8 @@ def index():
 @app.route('/api/notes', methods=['GET'])
 def get_notes():
     notes = Note.query.all()
+    a = [note.to_dict() for note in notes]
+    print (type(a))
     return jsonify([note.to_dict() for note in notes])
 
 @app.route('/api/notes', methods=['POST'])

@@ -45,15 +45,14 @@ document.getElementById('note-form').addEventListener('submit', async (e) => {
 });
 
 document.getElementById('clear-btn').addEventListener('click', async () => {
-    if (confirm('Вы уверены, что хотите удалить все заметки?')) {
-        try {
-            const response = await fetch('/api/notes/clear', { method: 'DELETE' });
-            if (!response.ok) throw new Error('Ошибка очистки');
-            await loadNotes();
-        } catch (error) {
-            console.error('Ошибка:', error);
-        }
+    try {
+        const response = await fetch('/api/notes/clear', { method: 'DELETE' });
+        if (!response.ok) throw new Error('Ошибка очистки');
+        await loadNotes();
+    } catch (error) {
+        console.error('Ошибка:', error);
     }
+    
 });
 
 document.addEventListener('DOMContentLoaded', loadNotes);
